@@ -87,7 +87,6 @@
     .success-form {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         background-color: #FFFFFF;
         border-radius: 15px;
         height: 60vh;
@@ -140,4 +139,98 @@
         color: #FFFFFF;
     }
     .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+@media all and (min-width: 320px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    body {
+        background-color: #FFFFFF;
+    }
+
+    .container {
+        #form {
+            width: 100vw;
+        }
+    }
+    #success-form {
+        width: 100vw;
+    }
+}
+
+@media all and (min-width: 480px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+    .container {
+        #form {
+            width: 100vw;
+        }
+    }
+    #success-form {
+        width: 100vw;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+    .container {
+        #form {
+            width: 100vw;
+        }
+    }
+    #success-form {
+        width: 100vw;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+    #success-form {
+        width: 100vw;
+    }
+}
+
+@media all and (min-width: 900px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+    #success-form {
+        width: 50vw;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    #desktop-image { display: none; }
+    #mobile-image { display: block; }
+    .form-container {
+        flex-wrap: wrap-reverse;
+    }
+    #success-form {
+        width: 35vw;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #desktop-image { display: block; }
+    #mobile-image { display: none; }
+    .form-container {
+        flex-wrap: nowrap;
+    }
 }
